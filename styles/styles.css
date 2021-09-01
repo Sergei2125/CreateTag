@@ -1,0 +1,86 @@
+.wrapper {
+  margin: 100px auto;
+  max-width: 60%;
+  border: 1px solid #c0bebe;
+  min-height: 60vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px #d2cdd3;
+  background: linear-gradient(to bottom, #adfce9 0%, #b9cdf8 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.title {
+  color: #507ddd;
+}
+.checkboxField {
+  padding: 10px;
+  color: #507ddd;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#readOnly {
+  zoom: 1.2;
+}
+.inputField {
+}
+.input {
+  padding: 7px;
+  margin: 5px;
+  border: 3px solid #c0bebe;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #800080;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  outline: none;
+}
+input[type="text"]:focus {
+  border: 3px solid #819fdf;
+}
+
+.addNewTagBtn,
+.addNewTagListBtn,
+.cleatAllBtn {
+  font-size: 18px;
+  margin-left: 80px;
+  padding: 7px 12px;
+  border: 1px solid #819fdf;
+  background-color: #c9d8f8;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px #819fdf;
+}
+.addNewTagBtn:hover,
+.addNewTagListBtn:hover,
+.cleatAllBtn:hover {
+  opacity: 0.6;
+  transition: opacity ease 0.2s;
+}
+.cleatAllBtn {
+  margin: 0;
+}
+.tagContent {
+  list-style-type: none;
+  display: inline-block;
+  border: 1px solid #c0bebe;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 4px 2px;
+  background-color: #d9e5fd;
+}
+.removeTagBtn {
+  background-color: #8eabeb;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.resultTagList {
+  background-color: #fff;
+  border: 1px solid #c0bebe;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 200px;
+  text-align: left;
+}
