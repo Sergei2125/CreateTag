@@ -1,4 +1,4 @@
-
+# CreateTags
 ## Component to create tags on native javascript
 
 netlify: #
