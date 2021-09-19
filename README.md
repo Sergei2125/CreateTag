@@ -1,7 +1,7 @@
 
 ## Component to create tags on native javascript
 
-netlify: -
+netlify: #
 
 ### Description:
 
@@ -10,6 +10,7 @@ Component for create tags:
 + adding new tags list
 + tags can be adding separated by commas or spaces
 + data storage in localstorage
++ read only mode
 
 ### Technologies:
 
