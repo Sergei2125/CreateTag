@@ -1,7 +1,7 @@
 # CreateTags
 ## Component to create tags on native javascript
 
-netlify: #
+netlify: https://infallible-edison-478210.netlify.app
 
 ### Description:
 
